@@ -1,0 +1,17 @@
+{
+  "name": "LGTM extension",
+  "description": "Quickly mark a pull request as LGTM",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+  "host_permissions": ["https://git.linecorp.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://git.linecorp.com/*/pull/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
