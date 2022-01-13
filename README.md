@@ -1,3 +1,6 @@
+
+<p align="middle" ><img width="150px" src="https://git.linecorp.com/storage/user/6926/files/a7bdf700-7490-11ec-9395-c9b12693453f" /></p>
+
 # ⚡️ Ez LGTM
 If you tired of writing LGTM after review any PR, this extension is for you.
 
