@@ -1,5 +1,6 @@
 # ⚡️ Ez LGTM
-If you tired of writing LGTM after review every PR, this extension is for you.
+If you tired of writing LGTM after review any PR, this extension is for you.
+⚠️ Disclaimer: This extension is not intended to be auto LGTM, but only to help you to write LGTM. You should still carefully review the PR before LGTM.
 
 ## Getting Started
 1. Clone the repository
