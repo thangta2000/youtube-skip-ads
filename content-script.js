@@ -68,4 +68,12 @@ window.addEventListener('load', () => {
   if (currentUrl.endsWith('/files#auto-review')) {
     addReview();
   }
+
+  document.addEventListener('keypress', (e) => {
+    // Ctrl + L
+    if(e.key === 'l' && e.ctrlKey === true) {
+      addReview();
+  }
+  })
 });
+
