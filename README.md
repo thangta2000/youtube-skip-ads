@@ -12,3 +12,4 @@ If you tired of writing LGTM after review any PR, this extension is for you.
 1. Navigate to the PR page
 2. Start your review
 3. Click the `LGTM` button
+<img width="1029" alt="Screen Shot 2022-01-13 at 16 01 31" src="https://git.linecorp.com/storage/user/6926/files/4f83f680-748a-11ec-90b8-0f9b6e0e344d">
