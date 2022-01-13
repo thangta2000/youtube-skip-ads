@@ -10,7 +10,10 @@
   "host_permissions": ["https://git.linecorp.com/*"],
   "content_scripts": [
     {
-      "matches": ["https://git.linecorp.com/*/pull/*"],
+      "matches": [
+        "https://git.linecorp.com/*/pull/*",
+        "https://git-dev.linecorp.com/*/pull/*"
+      ],
       "js": ["content-script.js"]
     }
   ]
