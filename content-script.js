@@ -1,19 +1,22 @@
 const button = document.createElement('button');
 document.body.appendChild(button);
-button.style.position = 'fixed';
-button.style.right = '50px';
-button.style.bottom = '50px';
-button.style.width = '100px';
-button.style.height = '100px';
-button.style.display = 'flex';
-button.style.backgroundColor = '#34d058';
-button.style.zIndex = '9999';
-button.style.borderRadius = '50%';
-button.style.boxShadow = '0 0 5px black';
-button.style.color = 'white';
-button.style.justifyContent = 'center';
-button.style.alignItems = 'center';
-button.innerText = 'LGTM';
+button.style.cssText = `
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 9999;
+    background-color: rgb(40, 167, 69);
+    color: #fff;
+    padding: 12px 24px;
+    text-align: center;
+    border-radius: 2em;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    box-shadow: 2px 3px 3px #e1e3e6;
+`;
+button.innerText = 'LGTM!';
 
 function addReview() {
   const reviewEle = document.getElementById('pull_request_review_body');
