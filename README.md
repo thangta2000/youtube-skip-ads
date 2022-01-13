@@ -1,7 +1,7 @@
 
-<p align="middle" ><img width="150px" src="https://git.linecorp.com/storage/user/6926/files/a7bdf700-7490-11ec-9395-c9b12693453f" /></p>
+<p align="middle"><img width="150px" src="https://git.linecorp.com/storage/user/6926/files/a7bdf700-7490-11ec-9395-c9b12693453f" /></p>
+=<h1 align="middle">⚡️ Ez LGTM</h1>
 
-# ⚡️ Ez LGTM
 If you tired of writing LGTM after review any PR, this extension is for you.
 
 ⚠️ Disclaimer: This extension is not intended to be auto LGTM, but only to help you to write LGTM. You should still carefully review the PR before LGTM.
