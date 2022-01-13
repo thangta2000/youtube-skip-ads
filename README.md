@@ -1,4 +1,5 @@
-# Quick LGTM for lazy people
+# ⚡️ Ez LGTM
+If you tired of writing LGTM after review every PR, this extension is for you.
 
 ## Getting Started
 1. Clone the repository
@@ -7,4 +8,5 @@
 
 ## How to use
 1. Navigate to the PR page
-2. Click the `LGTM` button
+2. Start your review
+3. Click the `LGTM` button
