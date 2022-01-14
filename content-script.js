@@ -71,9 +71,7 @@ window.addEventListener('load', () => {
 
   document.addEventListener('keypress', (e) => {
     // Ctrl + L
-    if(e.key === 'l' && e.ctrlKey === true) {
-      addReview();
-  }
+    if(e.code === 'KeyL' && e.ctrlKey) handleReview();
   })
 });
 
