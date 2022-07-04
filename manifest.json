@@ -1,26 +1,20 @@
 {
-  "name": "Ez LGTM",
-  "description": "Quickly mark a pull request as LGTM",
+  "name": "Youtube Skip Ads",
+  "description": "Automatically skip ads on youtube",
   "version": "0.0.1",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
   "permissions": ["storage", "activeTab", "scripting"],
-  "host_permissions": ["https://git.linecorp.com/*"],
+  "host_permissions": ["https://www.youtube.com/*"],
   "content_scripts": [
     {
-      "matches": [
-        "https://git.linecorp.com/*/pull/*",
-        "https://git-dev.linecorp.com/*/pull/*"
-      ],
+      "matches": ["https://www.youtube.com/*"],
       "js": ["content-script.js"]
     }
   ],
   "icons": {
-    "36": "/icons/36x36.png",
-    "48": "/icons/48x48.png",
-    "72": "/icons/72x72.png",
-    "128": "/icons/192x192.png"
+    "72": "/icons/72x72.png"
   }
 }
