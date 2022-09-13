@@ -8,9 +8,8 @@ const skipAds = () => {
 }
 
 window.addEventListener('load', () => {
-  skipAds()
-  setTimeout(skipAds, 250)
-  setTimeout(skipAds, 500)
+  console.info('loaded')
+  setInterval(skipAds, 1000)
 })
 
 let lastUrl = location.href
@@ -18,9 +17,6 @@ new MutationObserver(() => {
   const url = location.href
   if (url !== lastUrl) {
     lastUrl = url
-    setTimeout(skipAds, 250)
-    setTimeout(skipAds, 500)
-    setTimeout(skipAds, 750)
-    setTimeout(skipAds, 1000)
+    setInterval(skipAds, 1000)
   }
 }).observe(document, { subtree: true, childList: true })
