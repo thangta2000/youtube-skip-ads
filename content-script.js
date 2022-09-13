@@ -3,8 +3,18 @@ const skipAds = () => {
     '.ytp-ad-skip-button',
   )
 
-  if (!btn) return
-  btn.click()
+  if (btn) {
+    btn.click()
+    return
+  }
+
+  const text = document.querySelector(
+    '.ytp-ad-text',
+  )
+
+  if (text) {
+    location.reload()
+  }
 }
 
 window.addEventListener('load', () => {
